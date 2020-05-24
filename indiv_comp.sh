@@ -27,7 +27,7 @@ echo "圧縮を開始します.. 対象 >> ${fixed_dir}"
 zip_name=''
 for file in $(find ${fixed_dir} -maxdepth 1 -type f); do
     # 7zipの引数用に、winのパスに戻す
-    xls_name=$(wslpath -m ${file}) # - >> unix -> win
+    xls_name=$(wslpath -m ${file}) # -m >> unix -> win
     zip_name=${xls_name%.*}.zip
 
     # 7zip実行
