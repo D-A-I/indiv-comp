@@ -6,6 +6,6 @@
 
 ```bash
 # ex.
-# bash indiv_comp.sh "C\test" secret
-bash indiv_comp.sh "＜圧縮したい資材を含むパス（windows）＞" password
+# bash indiv_comp.sh "C:\test" secret
+bash indiv_comp.sh "＜圧縮したい資材を含むパス（windowsのパス指定）＞" password
 ```
