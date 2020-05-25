@@ -5,7 +5,8 @@
 - 以下コマンドで、指定したフォルダ下のファイルを、個別にzip圧縮する
 
 ```bash
+bash indiv_comp.sh "圧縮したい資材を含むパス（windowsのパス指定）" password
+
 # ex.
 # bash indiv_comp.sh "C:\test" secret
-bash indiv_comp.sh "＜圧縮したい資材を含むパス（windowsのパス指定）＞" password
 ```
