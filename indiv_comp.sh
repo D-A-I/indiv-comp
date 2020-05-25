@@ -5,7 +5,7 @@ set -eu
 
 # 7zipの格納パス
 ZIP7_PATH='C:\Program Files\7-Zip\7z.exe'
-zip7=$(wslpath -u "${ZIP7_PATH}") # -u >> win -> unix
+zip7=$(wslpath -u "${ZIP7_PATH}") # パスの区切り文字変換.. -u >> win -> unix
 
 # +++ 変数 +++
 
